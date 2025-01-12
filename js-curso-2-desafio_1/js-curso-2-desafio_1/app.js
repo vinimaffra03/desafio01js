@@ -3,8 +3,11 @@
 let titulo = document.querySelector("h1");
 titulo.innerHTML = "Hora do Desafio";
 
-// [] Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
+// [x] Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
 
+function verificarClique() {
+    console.log("O botão foi clicado !");
+}
 
 // [] Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado. 
 
